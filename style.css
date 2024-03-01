@@ -1,0 +1,73 @@
+body{
+    background-color:rgb(159, 233, 233);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 75px;
+    background-color: rgb(255,13,13);
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 75px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 75vh; 
+    background-color: skyblue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: black;   
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    background-image:url(vv.jpg);
+    
+}
+.bottom{
+    position: sticky;
+    height:75px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+
+}
+
+#myprogressbar{
+    width: 80vw;
+    
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    width: 80%;
+    border-radius: 44px;
+}
+.songItem img{
+    width:43px;
+    margin: 0 23px;
+
+}
